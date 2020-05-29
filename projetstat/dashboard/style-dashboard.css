@@ -1,0 +1,66 @@
+.box-graph{
+    display:flex;
+    height:99.5%;
+    width: 49%;
+    float:left;
+    margin-left: 1.8em;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-tableau{
+    display:flex;
+    height:99.5%;
+    width: 49%;
+    float:right;
+    overflow-y:scroll;
+}
+
+.tableau{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size:1.5em;
+    color:white;
+}
+
+.tableau2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size:0.5em;
+    color:white;
+    margin-right:1.5em;
+}
+
+table, th, td {
+    padding:7%;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #242424; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  

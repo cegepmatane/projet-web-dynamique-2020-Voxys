@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+body,html{
+    overflow-y: hidden;
+    height:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("icones/datacenter.jpg");
+    background-position: center;    
+}
+
+header{
+    display:flex;
+    width: auto;
+    height: 3em;
+    background-color:rgba(0, 0, 0);
+    align-items: center;    
+}
+
+#logobox {
+    margin-left: auto;
+    padding: 0.8em;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logomembre{
+    width:2em;
+    height:2em;
+}
+
+header h1{
+    display:flex;
+    font-size: 1.1em;
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.2em;
+    margin-right:10%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+}
+
+.membrebox{
+    border-radius:0.5em;
+    height:34em;
+    width:100%;
+    margin-right:3em;
+    margin-left:3em;
+    margin-bottom:10em;
+    background-color:rgb(0, 0, 0,0.4);
+    backdrop-filter:blur(4px);
+}
+
+
